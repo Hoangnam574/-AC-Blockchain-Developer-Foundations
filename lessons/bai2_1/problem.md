@@ -33,3 +33,5 @@ console.log(contract.getMessage()); // 👉 "Blockchain!"
 
 ## 📝 Lưu ý:
 - Đây là bài tập optional, nhưng rất nên làm nếu bạn muốn hiểu rõ state và hàm trong smart contract.
+
+prompt: bạn là một typescript developer, hãy đọc và phân tích @lessons/bai2_1\ và lập kế hoạch tạo một lớp 'smartcontract' ở solution.ts có thuộc tính message: string và contructor nhận một tham số mesage:string sau đó khởi tạo 'message' và tạo hàm: 1. hàm updateMessage sẽ cập nhật message mới, 2. getmessage trả về message hiện tại sử dụng test.ts để kiểm tra và sửa lỗi nếu có
